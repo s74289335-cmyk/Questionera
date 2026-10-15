@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102544"><title>Evalvia · Questionera</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">E</span><span>evalvia<small>Questionera</small></span></div>
+    <div class="side-label">WORKSPACE</div><a class="nav active" href="/">▦ <span>Paper builder</span></a><a class="nav" href="/paper">▤ <span>Generated paper</span></a>
+    <div class="sidebar-bottom"><div class="avatar">T</div><div><strong>Teacher workspace</strong><small>Local demo</small></div></div>
+  </aside>
+  <main class="main" id="builder">
+    <header class="topbar"><div><div class="eyebrow">ASSESSMENT WORKSPACE / GENERATOR</div><h1>Questionera</h1><p>Build balanced, classroom-ready assessments with transparent constraints.</p></div><span class="status"><i></i> Validation-enabled draft engine</span></header>
+    <section class="stats"><article class="stat"><span>QUESTION BANK</span><strong id="bank-count">58</strong><small>Bundled or imported questions</small></article><article class="stat"><span>SUBJECTS</span><strong>02</strong><small>Maths and Science</small></article><article class="stat"><span>VALIDATION</span><strong>Live</strong><small>Marks and mix checks</small></article></section>
+    <section class="panel source-panel">
+      <div class="panel-heading"><div><span class="step">SOURCE</span><h2>Question bank & textbook</h2><p>Use reviewed questions as the generation source. A textbook PDF is optional reference material.</p></div><span class="tag">IMPORT</span></div>
+      <div class="field-row upload-row">
+        <label>Question bank (.json or .csv)<input id="bank-upload" type="file" accept=".json,.csv"></label>
+        <button type="button" class="button secondary" id="validate-bank-btn">Validate</button><button type="button" class="button secondary" id="upload-bank-btn">Load bank</button><button type="button" class="button secondary" id="reset-bank-btn">Restore sample bank</button>
+      </div>
+      <p class="form-footnote">Required question fields: id, subject, topic, difficulty, question_type, marks, question. CSV options can be separated by |.</p>
+      <div class="field-row upload-row">
+        <label>Textbook PDF (optional)<input id="textbook-upload" type="file" accept=".pdf"></label>
+        <button type="button" class="button secondary" id="upload-textbook-btn">Extract text</button>
+      </div>
+      <div id="source-status" class="mix-note" role="status">Using the bundled sample question bank.</div>
+      <pre id="textbook-preview" class="textbook-preview hidden"></pre>
+    </section>
+    <div class="content-grid">
+      <section class="panel form-panel"><div class="panel-heading"><div><span class="step">01</span><h2>Paper requirements</h2><p>Set the structure of your assessment.</p></div><span class="tag">CONFIGURE</span></div>
+        <form id="generator-form">
+          <div class="field-row"><label>Subject<select id="subject"><option>Maths</option><option>Science</option></select></label><label>Total marks<input id="total-marks" type="number" min="1" max="300" value="40" required></label></div>
+          <div class="section-label">EXAM DETAILS <span>Printed on paper</span></div>
+          <div class="field-row"><label>Institution / school / college name<input id="institution" type="text" placeholder="Enter institution name"></label><label>Exam title<input id="exam-title" type="text" value="Question Paper"></label></div>
+          <div class="field-row"><label>Class / grade / semester<input id="class-name" type="text" placeholder="e.g. Grade 10"></label><label>Academic year<input id="academic-year" type="text" placeholder="e.g. 2026–2027"></label></div>
+          <div class="field-row"><label>Exam date<input id="exam-date" type="date"></label><label>Duration<input id="duration" type="text" value="2 hours"></label></div>
+          <label class="wide-field">General instructions <textarea id="instructions" rows="2">Answer all questions.
+Write answers clearly.</textarea></label>
+          <div class="section-label">DIFFICULTY MIX <span>Percentages</span></div><div class="mix-grid"><label>Easy<input type="number" min="0" max="100" id="easy" value="30"></label><label>Medium<input type="number" min="0" max="100" id="medium" value="50"></label><label>Hard<input type="number" min="0" max="100" id="hard" value="20"></label></div><div class="mix-note" id="difficulty-total">Total: 100%</div>
+          <div class="capacity-note" id="capacity-note" role="status">Checking selected subject capacity…</div>
+          <div class="section-label">TOPIC WEIGHTAGE <span>Subject-specific</span></div><div id="topic-fields" class="mix-grid topic-grid"></div><div class="mix-note">Leave topics at equal weight, or customize percentages. Values are normalized automatically; 0% excludes that topic.</div>
+          <div class="section-label">QUESTION-TYPE MIX <span>Percentages</span></div><div class="mix-grid"><label>MCQ<input type="number" min="0" max="100" id="mcq" value="40"></label><label>Short answer<input type="number" min="0" max="100" id="short" value="40"></label><label>Long answer<input type="number" min="0" max="100" id="long" value="20"></label></div><div class="mix-note" id="type-total">Entered total: 100% · normalized automatically</div>
+          <div class="form-actions"><button type="button" class="button secondary" id="sample-btn">Load sample</button><button type="button" class="button secondary" id="synthesis-btn">Find synthesis candidates</button><button type="submit" class="button primary" id="generate-btn">Generate paper <span>↗</span></button></div>
+          <div id="synthesis-results" class="synthesis-results hidden" aria-live="polite"></div>
+          <p class="form-footnote">Percentages are normalized by marks. A 0% category is excluded from generation. Other distribution targets are soft preferences; shortages are reported.</p>
+        </form>
+      </section>
+
+    </div>
+    <footer>Evalvia Intern Assignment · Smart Question Paper Generator <span>Constraint-aware demo · v1.0</span></footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body></html>

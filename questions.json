@@ -1,0 +1,1998 @@
+[
+  {
+    "id": "M001",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If 3x = 21, what is x?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": "M002",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Simplify: 4a + 3a - 2a.",
+    "answer": "5a"
+  },
+  {
+    "id": "M003",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which expression equals (x + 3)(x - 3)?",
+    "options": [
+      "x² + 9",
+      "x² - 9",
+      "x² - 6x + 9",
+      "x² + 6x + 9"
+    ],
+    "answer": "x² - 9"
+  },
+  {
+    "id": "M004",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Solve 2x + 5 = 17 and show your steps.",
+    "answer": "x = 6"
+  },
+  {
+    "id": "M005",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Solve x² - 5x + 6 = 0 by factorisation and verify both roots.",
+    "answer": "x = 2 or x = 3"
+  },
+  {
+    "id": "M006",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "The sum of two consecutive integers is 41. Form an equation and find the integers.",
+    "answer": "20 and 21"
+  },
+  {
+    "id": "M007",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "How many degrees are in a right angle?",
+    "options": [
+      "45°",
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "answer": "90°"
+  },
+  {
+    "id": "M008",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Find the perimeter of a rectangle with length 8 cm and width 3 cm.",
+    "answer": "22 cm"
+  },
+  {
+    "id": "M009",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The angles of a triangle add up to:",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": "180°"
+  },
+  {
+    "id": "M010",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Find the area of a triangle with base 10 cm and height 6 cm.",
+    "answer": "30 cm²"
+  },
+  {
+    "id": "M011",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "A circle has radius 7 cm. Find its circumference and area using π = 22/7.",
+    "answer": "Circumference = 44 cm; area = 154 cm²"
+  },
+  {
+    "id": "M012",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Explain why the diagonals of a rectangle are equal, and calculate each diagonal for a 6 cm by 8 cm rectangle.",
+    "answer": "By Pythagoras, each diagonal is 10 cm"
+  },
+  {
+    "id": "M013",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is sin 30°?",
+    "options": [
+      "0",
+      "1/2",
+      "√3/2",
+      "1"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": "M014",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Write the identity relating sin²θ and cos²θ.",
+    "answer": "sin²θ + cos²θ = 1"
+  },
+  {
+    "id": "M015",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If cos θ = 0 for an acute-angle question, what is the issue with the stated condition?",
+    "options": [
+      "It is always true",
+      "No acute angle satisfies it",
+      "θ must be 30°",
+      "θ must be 45°"
+    ],
+    "answer": "No acute angle satisfies it"
+  },
+  {
+    "id": "M016",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "In a right triangle, the opposite side is 6 and hypotenuse is 10. Find sin θ.",
+    "answer": "3/5"
+  },
+  {
+    "id": "M017",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "A ladder 10 m long reaches a wall at a height of 8 m. Find the distance of its foot from the wall and the angle it makes with the ground (nearest degree).",
+    "answer": "6 m; approximately 53°"
+  },
+  {
+    "id": "M018",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Derive tan θ = sin θ / cos θ from the right-triangle definitions, and evaluate tan 45°.",
+    "answer": "tan θ = sin θ / cos θ; tan 45° = 1"
+  },
+  {
+    "id": "M019",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the mean of 2, 4, and 6?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "M020",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Find the median of 3, 9, 2, 7, 5.",
+    "answer": "5"
+  },
+  {
+    "id": "M021",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "The marks of five students are 4, 6, 8, 8, 9. Calculate the mean and mode, and explain which is more affected by an extreme value.",
+    "answer": "Mean = 7; mode = 8; mean is more affected"
+  },
+  {
+    "id": "S001",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "answer": "Newton"
+  },
+  {
+    "id": "S002",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Define speed and write its formula.",
+    "answer": "Distance travelled per unit time; speed = distance/time"
+  },
+  {
+    "id": "S003",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which quantity is measured in watts?",
+    "options": [
+      "Energy",
+      "Power",
+      "Force",
+      "Pressure"
+    ],
+    "answer": "Power"
+  },
+  {
+    "id": "S004",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "A car travels 150 m in 10 s. Calculate its average speed.",
+    "answer": "15 m/s"
+  },
+  {
+    "id": "S005",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "A 2 kg object accelerates at 3 m/s². Calculate the net force and explain the law used.",
+    "answer": "6 N; Newton's second law F = ma"
+  },
+  {
+    "id": "S006",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Describe the energy changes that occur when a ball is thrown vertically upward and falls back down, ignoring air resistance.",
+    "answer": "Kinetic energy converts to potential energy and back"
+  },
+  {
+    "id": "S007",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the chemical symbol for sodium?",
+    "options": [
+      "So",
+      "S",
+      "Na",
+      "N"
+    ],
+    "answer": "Na"
+  },
+  {
+    "id": "S008",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "What is a molecule? Give one example.",
+    "answer": "Two or more atoms chemically bonded; e.g. O₂ or H₂O"
+  },
+  {
+    "id": "S009",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A solution with pH 3 is generally:",
+    "options": [
+      "Acidic",
+      "Neutral",
+      "Basic",
+      "A metal"
+    ],
+    "answer": "Acidic"
+  },
+  {
+    "id": "S010",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Balance the equation: H₂ + O₂ → H₂O.",
+    "answer": "2H₂ + O₂ → 2H₂O"
+  },
+  {
+    "id": "S011",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Explain how you would separate a mixture of sand and salt, naming each step and the property used.",
+    "answer": "Dissolve salt in water, filter sand, evaporate water"
+  },
+  {
+    "id": "S012",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Compare physical and chemical changes, giving two examples of each.",
+    "answer": "Physical: melting, cutting; chemical: rusting, burning"
+  },
+  {
+    "id": "S013",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which organelle is commonly called the powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome",
+      "Vacuole"
+    ],
+    "answer": "Mitochondrion"
+  },
+  {
+    "id": "S014",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Name the gas plants absorb during photosynthesis.",
+    "answer": "Carbon dioxide"
+  },
+  {
+    "id": "S015",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which part of a plant mainly absorbs water from soil?",
+    "options": [
+      "Flower",
+      "Root hairs",
+      "Stem bark",
+      "Petal"
+    ],
+    "answer": "Root hairs"
+  },
+  {
+    "id": "S016",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Write the word equation for photosynthesis.",
+    "answer": "Carbon dioxide + water → glucose + oxygen (light/chlorophyll)"
+  },
+  {
+    "id": "S017",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Explain how the structure of alveoli supports efficient gas exchange in human lungs.",
+    "answer": "Large surface area, thin moist walls, rich blood supply"
+  },
+  {
+    "id": "S018",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Describe the path of blood through the heart, lungs, and body in one complete circulation.",
+    "answer": "Body → right heart → lungs → left heart → body"
+  },
+  {
+    "id": "M022",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which is the coefficient of x in 7x + 4?",
+    "options": [
+      "4",
+      "7",
+      "11",
+      "x"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": "M023",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "How many sides does a hexagon have?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": "M024",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which measure is the middle value after arranging data in order?",
+    "options": [
+      "Mean",
+      "Mode",
+      "Median",
+      "Range"
+    ],
+    "answer": "Median"
+  },
+  {
+    "id": "M025",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Write the value of cos 60°.",
+    "answer": "1/2"
+  },
+  {
+    "id": "M026",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Expand 3(x + 4).",
+    "answer": "3x + 12"
+  },
+  {
+    "id": "M027",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Find the area of a parallelogram with base 12 cm and height 5 cm.",
+    "answer": "60 cm²"
+  },
+  {
+    "id": "M028",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Find the range of the data set 12, 7, 15, 9, 11.",
+    "answer": "15 - 7 = 8"
+  },
+  {
+    "id": "M029",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "The length of a rectangle is 3 cm more than its width. Its perimeter is 30 cm. Form an equation and find its dimensions.",
+    "answer": "Let width be w. 2(w + w + 3) = 30, so w = 6 cm and length = 9 cm."
+  },
+  {
+    "id": "M030",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "A right triangle has perpendicular sides 9 cm and 12 cm. Find its hypotenuse and area, showing the calculations.",
+    "answer": "Hypotenuse = √(9² + 12²) = 15 cm; area = 1/2 × 9 × 12 = 54 cm²."
+  },
+  {
+    "id": "M031",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "In a right triangle, the opposite side to angle θ is 5 cm and the adjacent side is 12 cm. Find sin θ and tan θ.",
+    "answer": "Hypotenuse = 13 cm; sin θ = 5/13; tan θ = 5/12."
+  },
+  {
+    "id": "M032",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "The scores are 6, 8, 10, 10, 11. Calculate the mean and median.",
+    "answer": "Mean = 45/5 = 9; median = 10."
+  },
+  {
+    "id": "M033",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Solve the simultaneous equations 2x + y = 11 and x - y = 1. Show your method.",
+    "answer": "Adding equations gives 3x = 12, so x = 4 and y = 3."
+  },
+  {
+    "id": "M034",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "A cylinder has radius 3 cm and height 10 cm. Find its volume in terms of π and then approximate it using π = 3.14.",
+    "answer": "V = πr²h = 90π cm³ ≈ 282.6 cm³."
+  },
+  {
+    "id": "M035",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "From a point on level ground 20 m from a building, the angle of elevation to the top is 45°. Assuming a level ground, find the building height.",
+    "answer": "tan 45° = h/20, so h = 20 m."
+  },
+  {
+    "id": "M036",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "The mean of five numbers is 14. Four numbers are 10, 12, 15 and 18. Find the fifth number and explain your calculation.",
+    "answer": "Total = 5 × 14 = 70; known sum = 55; fifth number = 15."
+  },
+  {
+    "id": "M037",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which is the factorised form of x² + 7x + 12?",
+    "options": [
+      "(x + 3)(x + 4)",
+      "(x + 2)(x + 6)",
+      "(x - 3)(x - 4)",
+      "(x + 1)(x + 12)"
+    ],
+    "answer": "(x + 3)(x + 4)"
+  },
+  {
+    "id": "M038",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Find the circumference of a circle of radius 7 cm using π = 22/7.",
+    "answer": "44 cm"
+  },
+  {
+    "id": "M039",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If sin θ = 3/5 for an acute angle, what is cos θ?",
+    "options": [
+      "2/5",
+      "3/4",
+      "4/5",
+      "5/3"
+    ],
+    "answer": "4/5"
+  },
+  {
+    "id": "M040",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Find the mode of 2, 4, 4, 5, 7, 4, 8.",
+    "answer": "4"
+  },
+  {
+    "id": "M041",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If x + 8 = 13, what is x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": "M042",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the sum of the interior angles of a triangle?",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": "180°"
+  },
+  {
+    "id": "M043",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which value occurs most often in a data set?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "answer": "Mode"
+  },
+  {
+    "id": "M044",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the value of tan 0°?",
+    "options": [
+      "0",
+      "1",
+      "undefined",
+      "1/2"
+    ],
+    "answer": "0"
+  },
+  {
+    "id": "M045",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which of these is a prime number?",
+    "options": [
+      "21",
+      "27",
+      "29",
+      "33"
+    ],
+    "answer": "29"
+  },
+  {
+    "id": "M046",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "How many lines of symmetry does a square have?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "M047",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the mean of 5, 7 and 9?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": "M048",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which ratio is opposite side divided by hypotenuse?",
+    "options": [
+      "cos θ",
+      "tan θ",
+      "sin θ",
+      "cot θ"
+    ],
+    "answer": "sin θ"
+  },
+  {
+    "id": "M049",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If 5x = 45, what is x?",
+    "options": [
+      "5",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": "M050",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A rectangle is 7 cm long and 4 cm wide. What is its area?",
+    "options": [
+      "11 cm²",
+      "22 cm²",
+      "28 cm²",
+      "14 cm²"
+    ],
+    "answer": "28 cm²"
+  },
+  {
+    "id": "M051",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Find the median of 2, 4, 8, 9, 12.",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": "M052",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "For an acute angle θ, if sin θ = 1/2, which standard angle can θ be?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "30°"
+  },
+  {
+    "id": "M053",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the factorisation of x² − 16?",
+    "options": [
+      "(x − 8)(x + 2)",
+      "(x − 4)(x + 4)",
+      "(x − 16)(x + 1)",
+      "(x − 4)²"
+    ],
+    "answer": "(x − 4)(x + 4)"
+  },
+  {
+    "id": "M054",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the circumference of a circle with diameter d?",
+    "options": [
+      "πd",
+      "πd²",
+      "2πd",
+      "d²"
+    ],
+    "answer": "πd"
+  },
+  {
+    "id": "M055",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If the mean of 4 numbers is 6, what is their total?",
+    "options": [
+      "10",
+      "18",
+      "24",
+      "30"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": "M056",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which identity is correct?",
+    "options": [
+      "sin θ + cos θ = 1",
+      "sin²θ + cos²θ = 1",
+      "tan θ = sin θ × cos θ",
+      "sin θ = cos 2θ"
+    ],
+    "answer": "sin²θ + cos²θ = 1"
+  },
+  {
+    "id": "M057",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What are the roots of x² − 9 = 0?",
+    "options": [
+      "0 and 9",
+      "−3 and 3",
+      "−9 and 1",
+      "3 and 9"
+    ],
+    "answer": "−3 and 3"
+  },
+  {
+    "id": "M058",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A circle has diameter 14 cm. What is its radius?",
+    "options": [
+      "3.5 cm",
+      "7 cm",
+      "14 cm",
+      "28 cm"
+    ],
+    "answer": "7 cm"
+  },
+  {
+    "id": "M059",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A data set has mean 10. If every value increases by 3, what is the new mean?",
+    "options": [
+      "10",
+      "11",
+      "13",
+      "30"
+    ],
+    "answer": "13"
+  },
+  {
+    "id": "M060",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If tan θ = 1 and θ is acute, what is θ?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "45°"
+  },
+  {
+    "id": "M061",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is 2³?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": "M062",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "How many degrees are in a straight angle?",
+    "options": [
+      "90°",
+      "120°",
+      "180°",
+      "360°"
+    ],
+    "answer": "180°"
+  },
+  {
+    "id": "M063",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the range of 3, 10, 6, 8?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": "M064",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is cos 0°?",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "undefined"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "M065",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "If y = 2x + 1 and x = 4, what is y?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": "M066",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is each interior angle of an equilateral triangle?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "60°"
+  },
+  {
+    "id": "M067",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which measure is usually least affected by one extreme value?",
+    "options": [
+      "Mean",
+      "Median",
+      "Sum",
+      "Range"
+    ],
+    "answer": "Median"
+  },
+  {
+    "id": "M068",
+    "subject": "Maths",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "In a right triangle, cos θ equals which ratio?",
+    "options": [
+      "Opposite/hypotenuse",
+      "Adjacent/hypotenuse",
+      "Opposite/adjacent",
+      "Hypotenuse/adjacent"
+    ],
+    "answer": "Adjacent/hypotenuse"
+  },
+  {
+    "id": "M069",
+    "subject": "Maths",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "Solve 4x − 7 = 21 and show each step.",
+    "answer": "4x = 28, so x = 7."
+  },
+  {
+    "id": "M070",
+    "subject": "Maths",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "A square has perimeter 36 cm. Find its side length and area.",
+    "answer": "Side = 36/4 = 9 cm; area = 9² = 81 cm²."
+  },
+  {
+    "id": "M071",
+    "subject": "Maths",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 3,
+    "question": "The values are 4, 6, 6, 8, 11. Find the mean and mode.",
+    "answer": "Mean = 35/5 = 7; mode = 6."
+  },
+  {
+    "id": "S019",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the SI unit of energy?",
+    "options": [
+      "watt",
+      "joule",
+      "newton",
+      "pascal"
+    ],
+    "answer": "joule"
+  },
+  {
+    "id": "S020",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What type of image does a plane mirror form?",
+    "options": [
+      "Real and inverted",
+      "Virtual, upright, and the same size",
+      "Real and enlarged",
+      "Virtual and always smaller"
+    ],
+    "answer": "Virtual, upright, and the same size"
+  },
+  {
+    "id": "S021",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Define acceleration and write its formula.",
+    "answer": "Change in velocity per unit time; a = (v - u) / t"
+  },
+  {
+    "id": "S022",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "State Newton’s first law of motion.",
+    "answer": "An object remains at rest or in uniform straight-line motion unless acted on by a net external force."
+  },
+  {
+    "id": "S023",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "A device operates at 12 V and draws 2 A of current. Calculate its electrical power.",
+    "answer": "P = VI = 12 × 2 = 24 W"
+  },
+  {
+    "id": "S024",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "A 6 Ω resistor carries a current of 2 A. Calculate the potential difference across it.",
+    "answer": "V = IR = 2 × 6 = 12 V"
+  },
+  {
+    "id": "S025",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Compare series and parallel circuits in terms of current paths, current, and potential difference.",
+    "answer": "Series: one current path and the same current through components; voltage is shared. Parallel: multiple paths and the same voltage across each branch; current divides among branches."
+  },
+  {
+    "id": "S026",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "A 4 kg trolley accelerates at 5 m/s² while friction opposing motion is 6 N. Calculate the net force and the applied force, showing your reasoning.",
+    "answer": "Net force = ma = 4 × 5 = 20 N. Applied force must overcome friction as well, so applied force = 20 + 6 = 26 N."
+  },
+  {
+    "id": "S027",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The atomic number of an element equals the number of:",
+    "options": [
+      "neutrons",
+      "protons",
+      "electron shells",
+      "nucleons"
+    ],
+    "answer": "protons"
+  },
+  {
+    "id": "S028",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "At room temperature, a neutral aqueous solution has a pH close to:",
+    "options": [
+      "1",
+      "4",
+      "7",
+      "12"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": "S029",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "What are isotopes? Give one example.",
+    "answer": "Atoms of the same element with the same number of protons but different numbers of neutrons; for example carbon-12 and carbon-14."
+  },
+  {
+    "id": "S030",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Why is rusting of iron considered a chemical change?",
+    "answer": "Iron reacts with oxygen and moisture to form iron oxide, a new substance with different properties."
+  },
+  {
+    "id": "S031",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Balance the equation: Mg + O₂ → MgO.",
+    "answer": "2Mg + O₂ → 2MgO"
+  },
+  {
+    "id": "S032",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "A sample has a mass of 20 g and a volume of 5 cm³. Calculate its density.",
+    "answer": "Density = mass / volume = 20 / 5 = 4 g/cm³"
+  },
+  {
+    "id": "S033",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Explain how paper chromatography can separate coloured pigments in ink. Include the role of the solvent and why pigments may travel different distances.",
+    "answer": "The solvent moves through the paper and carries dissolved pigments. Pigments travel different distances because they differ in solubility in the solvent and attraction to the paper."
+  },
+  {
+    "id": "S034",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "For the reaction HCl + NaOH → NaCl + H₂O, identify the reaction type and products, then explain how the acid and base form water.",
+    "answer": "It is a neutralization reaction. Products are sodium chloride and water. H⁺ ions from the acid combine with OH⁻ ions from the base to form water."
+  },
+  {
+    "id": "S035",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which blood cells mainly carry oxygen using haemoglobin?",
+    "options": [
+      "White blood cells",
+      "Red blood cells",
+      "Platelets",
+      "Nerve cells"
+    ],
+    "answer": "Red blood cells"
+  },
+  {
+    "id": "S036",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "In a typical human cell, most DNA is found in the:",
+    "options": [
+      "cell membrane",
+      "nucleus",
+      "ribosome",
+      "vacuole"
+    ],
+    "answer": "nucleus"
+  },
+  {
+    "id": "S037",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "State two functions of stomata in leaves.",
+    "answer": "They allow gas exchange and regulate water loss through transpiration."
+  },
+  {
+    "id": "S038",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Distinguish a producer from a consumer in a food chain.",
+    "answer": "A producer makes organic food, usually by photosynthesis; a consumer obtains energy by eating other organisms."
+  },
+  {
+    "id": "S039",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "What is osmosis?",
+    "answer": "The net movement of water through a selectively permeable membrane from higher water potential to lower water potential."
+  },
+  {
+    "id": "S040",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Explain one important role of decomposers in an ecosystem.",
+    "answer": "They break down dead organisms and waste, returning nutrients to the environment for reuse."
+  },
+  {
+    "id": "S041",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "In a grass → rabbit → fox food chain, explain how energy moves between organisms and why less energy is available at higher trophic levels.",
+    "answer": "Energy passes when one organism eats another. Some energy is used in respiration and movement or lost as heat and waste, so less energy is transferred to each higher trophic level."
+  },
+  {
+    "id": "S042",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Hard",
+    "question_type": "Long Answer",
+    "marks": 5,
+    "question": "Compare aerobic and anaerobic respiration in terms of oxygen use, energy released, and typical products.",
+    "answer": "Aerobic respiration uses oxygen, releases more energy, and produces carbon dioxide and water. Anaerobic respiration occurs without oxygen, releases less energy, and produces lactic acid in human muscles or ethanol and carbon dioxide in yeast."
+  },
+  {
+    "id": "S043",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the SI unit of power?",
+    "options": [
+      "joule",
+      "watt",
+      "newton",
+      "volt"
+    ],
+    "answer": "watt"
+  },
+  {
+    "id": "S044",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Speed is a:",
+    "options": [
+      "vector quantity",
+      "scalar quantity",
+      "force",
+      "unit of time"
+    ],
+    "answer": "scalar quantity"
+  },
+  {
+    "id": "S045",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The approximate acceleration due to gravity near Earth’s surface is:",
+    "options": [
+      "0.98 m/s²",
+      "4.9 m/s²",
+      "9.8 m/s²",
+      "98 m/s²"
+    ],
+    "answer": "9.8 m/s²"
+  },
+  {
+    "id": "S046",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which lens is thicker at the centre and can converge parallel light rays?",
+    "options": [
+      "concave lens",
+      "convex lens",
+      "plane glass plate",
+      "prism only"
+    ],
+    "answer": "convex lens"
+  },
+  {
+    "id": "S047",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which mirror is commonly used as a vehicle rear-view mirror to provide a wider field of view?",
+    "options": [
+      "plane mirror",
+      "concave mirror",
+      "convex mirror",
+      "parabolic mirror"
+    ],
+    "answer": "convex mirror"
+  },
+  {
+    "id": "S048",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The SI unit of electric current is the:",
+    "options": [
+      "ampere",
+      "ohm",
+      "watt",
+      "coulomb per volt"
+    ],
+    "answer": "ampere"
+  },
+  {
+    "id": "S049",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Sound cannot travel through:",
+    "options": [
+      "air",
+      "water",
+      "steel",
+      "a vacuum"
+    ],
+    "answer": "a vacuum"
+  },
+  {
+    "id": "S050",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The kinetic energy of a moving object depends on its:",
+    "options": [
+      "colour and shape only",
+      "mass and speed",
+      "temperature only",
+      "electric charge only"
+    ],
+    "answer": "mass and speed"
+  },
+  {
+    "id": "S051",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "When a constant force acts parallel to displacement, work done is calculated as:",
+    "options": [
+      "W = F / d",
+      "W = F × d",
+      "W = m / a",
+      "W = v / t"
+    ],
+    "answer": "W = F × d"
+  },
+  {
+    "id": "S052",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The SI unit of frequency is:",
+    "options": [
+      "hertz",
+      "metre",
+      "newton",
+      "joule"
+    ],
+    "answer": "hertz"
+  },
+  {
+    "id": "S053",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which of these is a good electrical conductor?",
+    "options": [
+      "rubber",
+      "dry wood",
+      "copper",
+      "glass"
+    ],
+    "answer": "copper"
+  },
+  {
+    "id": "S054",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "For reflection from a plane mirror, the angle of incidence is:",
+    "options": [
+      "greater than the angle of reflection in every case",
+      "equal to the angle of reflection",
+      "always zero",
+      "twice the angle of reflection"
+    ],
+    "answer": "equal to the angle of reflection"
+  },
+  {
+    "id": "S055",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the chemical symbol for potassium?",
+    "options": [
+      "P",
+      "Po",
+      "K",
+      "Pt"
+    ],
+    "answer": "K"
+  },
+  {
+    "id": "S056",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A solution with pH 5 is generally:",
+    "options": [
+      "acidic",
+      "neutral",
+      "alkaline",
+      "always pure water"
+    ],
+    "answer": "acidic"
+  },
+  {
+    "id": "S057",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "When many metals react with dilute acids, which gas is commonly released?",
+    "options": [
+      "oxygen",
+      "nitrogen",
+      "hydrogen",
+      "chlorine"
+    ],
+    "answer": "hydrogen"
+  },
+  {
+    "id": "S058",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "What is the chemical formula of water?",
+    "options": [
+      "HO",
+      "H₂O",
+      "H₂O₂",
+      "OH₂₂"
+    ],
+    "answer": "H₂O"
+  },
+  {
+    "id": "S059",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A covalent bond forms when atoms:",
+    "options": [
+      "transfer protons",
+      "share electron pairs",
+      "share neutrons",
+      "lose their nuclei"
+    ],
+    "answer": "share electron pairs"
+  },
+  {
+    "id": "S060",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The modern periodic table is arranged by increasing:",
+    "options": [
+      "atomic mass only",
+      "atomic number",
+      "number of compounds",
+      "melting point"
+    ],
+    "answer": "atomic number"
+  },
+  {
+    "id": "S061",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Rusting of iron generally requires oxygen and:",
+    "options": [
+      "helium",
+      "moisture",
+      "pure nitrogen only",
+      "sugar"
+    ],
+    "answer": "moisture"
+  },
+  {
+    "id": "S062",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which method can separate iron filings from sand?",
+    "options": [
+      "filtration through ordinary paper only",
+      "using a magnet",
+      "distillation",
+      "chromatography"
+    ],
+    "answer": "using a magnet"
+  },
+  {
+    "id": "S063",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "An element is a substance that contains:",
+    "options": [
+      "two kinds of molecule always",
+      "one kind of atom",
+      "only mixtures",
+      "only ions of different elements"
+    ],
+    "answer": "one kind of atom"
+  },
+  {
+    "id": "S064",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "A catalyst generally:",
+    "options": [
+      "is consumed completely in every reaction",
+      "increases reaction rate without being consumed overall",
+      "changes the identity of every product",
+      "stops all collisions"
+    ],
+    "answer": "increases reaction rate without being consumed overall"
+  },
+  {
+    "id": "S065",
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "In a solution, the substance that dissolves another substance is the:",
+    "options": [
+      "solute",
+      "solvent",
+      "precipitate only",
+      "residue"
+    ],
+    "answer": "solvent"
+  },
+  {
+    "id": "S066",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The basic structural and functional unit of life is the:",
+    "options": [
+      "organ",
+      "cell",
+      "tissue",
+      "organ system"
+    ],
+    "answer": "cell"
+  },
+  {
+    "id": "S067",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which pigment absorbs light for photosynthesis in plants?",
+    "options": [
+      "haemoglobin",
+      "chlorophyll",
+      "melanin",
+      "keratin"
+    ],
+    "answer": "chlorophyll"
+  },
+  {
+    "id": "S068",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The commonly cited number of bones in an adult human skeleton is:",
+    "options": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ],
+    "answer": "206"
+  },
+  {
+    "id": "S069",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "The largest organ of the human body by surface area is the:",
+    "options": [
+      "heart",
+      "skin",
+      "liver",
+      "lung"
+    ],
+    "answer": "skin"
+  },
+  {
+    "id": "S070",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which organs filter blood and help produce urine?",
+    "options": [
+      "lungs",
+      "kidneys",
+      "stomach",
+      "pancreas"
+    ],
+    "answer": "kidneys"
+  },
+  {
+    "id": "S071",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which plant tissue mainly transports water from roots to leaves?",
+    "options": [
+      "phloem",
+      "xylem",
+      "epidermis only",
+      "pollen"
+    ],
+    "answer": "xylem"
+  },
+  {
+    "id": "S072",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "In plant cells, photosynthesis takes place in the:",
+    "options": [
+      "mitochondria only",
+      "chloroplasts",
+      "nucleus",
+      "cell wall"
+    ],
+    "answer": "chloroplasts"
+  },
+  {
+    "id": "S073",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which molecule carries hereditary information in most living organisms?",
+    "options": [
+      "starch",
+      "DNA",
+      "cellulose",
+      "haemoglobin"
+    ],
+    "answer": "DNA"
+  },
+  {
+    "id": "S074",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Arrows in a food chain normally indicate the direction of:",
+    "options": [
+      "organism size",
+      "energy transfer",
+      "water flow through soil only",
+      "movement of every animal"
+    ],
+    "answer": "energy transfer"
+  },
+  {
+    "id": "S075",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Which blood cells help defend the body against infection?",
+    "options": [
+      "red blood cells",
+      "white blood cells",
+      "platelets only",
+      "bone cells"
+    ],
+    "answer": "white blood cells"
+  },
+  {
+    "id": "S076",
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "marks": 1,
+    "question": "Pollination is the transfer of pollen from the anther to the:",
+    "options": [
+      "root",
+      "stigma",
+      "ovary wall only",
+      "leaf blade"
+    ],
+    "answer": "stigma"
+  },
+  {
+    "id": "S077",
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question_type": "Short Answer",
+    "marks": 2,
+    "question": "Why can wearing a seat belt reduce injury during a sudden stop?",
+    "answer": "A seat belt restrains the passenger and increases the time over which the passenger slows down, reducing the average force for the same change in momentum."
+  }
+]
