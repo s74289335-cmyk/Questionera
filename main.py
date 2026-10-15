@@ -35,7 +35,6 @@ def _load_active_bank() -> list[dict[str, Any]]:
             candidate = json.loads(BANK_STORAGE_PATH.read_text(encoding="utf-8"))
             return _validate_uploaded_bank(candidate)
         except (OSError, json.JSONDecodeError, ValueError):
-            # A damaged custom bank must not prevent the app from starting.
             return list(QUESTION_BANK)
     return list(QUESTION_BANK)
 
@@ -224,7 +223,6 @@ def synthesis_proposals(req: SynthesisRequest):
                 continue
             if first.get("id") == second.get("id"):
                 continue
-            # Same-topic pairing is only a candidate signal; no semantic integration is assumed.
             from engine import _are_similar
             if _are_similar(first, second):
                 continue
@@ -330,13 +328,10 @@ def _validate_uploaded_bank(records: list[dict[str, Any]]) -> list[dict[str, Any
     ids = [q["id"].casefold() for q in normalized]
     if len(ids) != len(set(ids)):
         raise ValueError("Question IDs must be unique, ignoring letter case.")
-    # Engine-level validation catches taxonomy, answer shape, and integer mark issues too.
     from engine import _validate_bank
     _validate_bank(normalized)
     return normalized
 
-
-# Load a previously validated custom bank only after validation helpers exist.
 ACTIVE_QUESTION_BANK = _load_active_bank()
 
 
@@ -420,7 +415,7 @@ async def upload_bank(file: UploadFile = File(...)):
         raise HTTPException(status_code=413, detail="Question bank must be 5 MB or smaller.")
     try:
         records = _parse_bank_upload((file.filename or "").lower(), raw)
-        _persist_bank(records)  # Commit only after the complete bank passes validation.
+        _persist_bank(records)
         ACTIVE_QUESTION_BANK = records
         return {"status": "ok", "question_count": len(ACTIVE_QUESTION_BANK),
                 "subjects": sorted({q["subject"] for q in ACTIVE_QUESTION_BANK}),
