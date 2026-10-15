@@ -1,16 +1,9 @@
 "use strict";
-
-/* =========================================================
-   EVALVIA — SMART QUESTION PAPER GENERATOR
-   File: static/app.js
-   ========================================================= */
-
 let currentPaper = null;
 let optionsData = {};
 
 const $ = (id) => document.getElementById(id);
 
-// Default exam date is editable in the form; no browser prompts are used.
 if ($("exam-date") && !$("exam-date").value) $("exam-date").value = new Date().toISOString().slice(0, 10);
 const pct = (id) => Math.max(0, Number($(id)?.value) || 0);
 
@@ -109,10 +102,6 @@ function showError(message) {
   `;
 }
 
-/* =========================================================
-   DASHBOARD RENDERING
-   ========================================================= */
-
 function orderedPaperQuestions(paper) {
   const typeOrder = { "MCQ": 0, "Short Answer": 1, "Long Answer": 2 };
   const difficultyOrder = { "Easy": 0, "Medium": 1, "Hard": 2 };
@@ -127,7 +116,6 @@ function renderPaper(paper) {
   currentPaper = paper;
   try { localStorage.setItem("evalviaCurrentPaper", JSON.stringify(paper)); } catch (error) { console.warn("Could not persist the current paper", error); }
 
-  // The builder intentionally does not render question cards; the paper workspace owns them.
   if (!$("result")) return;
 
   $("empty-state")?.classList.add("hidden");
@@ -321,13 +309,7 @@ async function doSwap(id, button) {
   }
 }
 
-/* =========================================================
-   DYNAMIC PAPER DETAILS
-   ========================================================= */
-
-function askPaperDetails(paper) {
-  // Exam details are collected on the builder page, alongside the other settings.
-  // Keep this function as a non-interactive reader so browser prompt dialogs never appear.
+function askPaperDetails(paper) {.
   const subject = paper.subject || "Assessment";
   const value = (id, fallback = "") => ($(id)?.value || "").trim() || fallback;
   return {
@@ -340,11 +322,6 @@ function askPaperDetails(paper) {
     instructions: value("instructions", "Answer all questions carefully.")
   };
 }
-
-/* =========================================================
-   PRINTABLE PAPER BUILDER
-   Student paper excludes answer keys and swap buttons.
-   ========================================================= */
 
 function buildPrintablePaper(paper, details) {
   const esc = escapeHtml;
@@ -842,10 +819,6 @@ function buildPrintablePaper(paper, details) {
 </html>`;
 }
 
-/* =========================================================
-   OPEN PAPER AND DOWNLOAD AS PDF
-   ========================================================= */
-
 function openPaperInNewTab() {
   if (!currentPaper) {
     alert("Generate a paper first.");
@@ -854,9 +827,6 @@ function openPaperInNewTab() {
 
   const details = askPaperDetails(currentPaper);
   if (!details) return;
-
-  // Keep the generated paper and teacher-entered details, then navigate in the
-  // current tab. This avoids popup blockers and lets the teacher edit the paper.
   currentPaper.exam_details = {
     ...(currentPaper.exam_details || {}),
     institution: details.institution,
@@ -893,13 +863,8 @@ function downloadPaperAsPdf() {
   };
   try { localStorage.setItem("evalviaCurrentPaper", JSON.stringify(currentPaper)); }
   catch (error) { console.warn("Could not persist the current paper", error); }
-  // Use the same-tab paper workspace; it triggers the print dialog via ?print=1.
   window.location.href = "/paper?print=1";
 }
-
-/* =========================================================
-   EVENT HANDLERS
-   ========================================================= */
 
 $("view-paper-btn")?.addEventListener("click", openPaperInNewTab);
 
@@ -1176,11 +1141,6 @@ $("total-marks")?.addEventListener("input", () => {
 ["easy", "medium", "hard", "mcq", "short", "long"].forEach((id) => {
   $(id)?.addEventListener("input", updateMixTotals);
 });
-
-/* =========================================================
-   INITIALIZE
-   ========================================================= */
-
 (async function initialize() {
   try {
     optionsData = await api("/api/options");
