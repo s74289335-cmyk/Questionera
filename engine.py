@@ -35,8 +35,6 @@ def _normalize_mix(mix: dict[str, float] | None, available: set[str]) -> dict[st
         return {key: 1 / len(available) for key in sorted(available)}
     cleaned: dict[str, float] = {}
     recognized = {str(key): value for key, value in mix.items() if str(key) in available}
-    # A caller may pass a subject-independent default blueprint; if none of its
-    # categories apply, use an even mix for the actual subject rather than fail.
     if not recognized:
         return {key: 1 / len(available) for key in sorted(available)}
     unknown = sorted(set(map(str, mix)) - available)
@@ -67,7 +65,6 @@ def _question_text(q: dict[str, Any]) -> str:
 
 @lru_cache(maxsize=50000)
 def _canonical(text: str) -> str:
-    # Preserve mathematical operators so x+3 and x-3 are not collapsed together.
     text = (text.casefold().replace("²", "^2").replace("³", "^3")
             .replace("≤", "<=").replace("≥", ">=").replace("×", "*")
             .replace("÷", "/").replace("−", "-").replace("π", "pi"))
@@ -85,15 +82,12 @@ def _are_similar(a: dict[str, Any], b: dict[str, Any]) -> bool:
         return False
     if text_a == text_b:
         return True
-    # Only compare substantial questions; short questions often share generic wording.
     if min(len(text_a), len(text_b)) >= 24:
         longest = max(len(text_a), len(text_b))
         shortest = min(len(text_a), len(text_b))
         if shortest / longest < 0.82:
             return False
         if longest > 1200:
-            # For unusually long prompts, use a bounded comparison to avoid a
-            # pathological import causing quadratic text-comparison cost.
             text_a, text_b = text_a[:1200], text_b[:1200]
         return SequenceMatcher(None, text_a, text_b, autojunk=True).ratio() >= 0.93
     return False
@@ -268,7 +262,6 @@ def generate_paper(*, subject: str, total_marks: int, mixes: dict[str, dict[str,
             normalized[dimension] = _normalize_mix(raw_mix, available)
 
     selected = _choose_questions(pool, total_marks, normalized, seed)
-    # Keep the paper aligned by marks; this ordering is also reapplied after swaps.
     selected.sort(key=_paper_order_key)
     achieved_marks = sum(int(q["marks"]) for q in selected)
     breakdown = _build_breakdown(selected, total_marks, normalized)
@@ -398,7 +391,6 @@ def swap_question(paper: dict[str, Any], question_id: str,
     updated = dict(paper)
     updated_questions = list(questions)
     updated_questions[old_index] = replacement
-    # A swap must never leave a replacement stranded in the wrong mark section.
     updated_questions.sort(key=_paper_order_key)
     updated["questions"] = updated_questions
     updated["achieved_marks"] = sum(int(q["marks"]) for q in updated_questions)
@@ -417,7 +409,6 @@ def swap_question(paper: dict[str, Any], question_id: str,
                     "No exact attribute match was available; the closest same-mark replacement was used. "
                     "Only the requested question changed."),
     }
-    # Recalculate distribution values after a swap; old warnings must not remain stale.
     requested_mixes = updated.get("requested_mixes")
     if isinstance(requested_mixes, dict):
         updated["breakdown"] = _build_breakdown(updated_questions, int(updated.get("requested_marks", updated["achieved_marks"])), requested_mixes)
