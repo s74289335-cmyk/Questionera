@@ -309,7 +309,7 @@ async function doSwap(id, button) {
   }
 }
 
-function askPaperDetails(paper) {.
+function askPaperDetails(paper) {
   const subject = paper.subject || "Assessment";
   const value = (id, fallback = "") => ($(id)?.value || "").trim() || fallback;
   return {
