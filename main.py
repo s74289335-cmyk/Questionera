@@ -114,7 +114,7 @@ class SynthesisRequest(BaseModel):
     max_pairs: int = Field(default=10, ge=1, le=30)
 
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def home():
     return FileResponse(BASE / "static" / "index.html")
 
